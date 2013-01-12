@@ -1,0 +1,5 @@
+There were two questions during the skype interview:
+1) Write a function that remove duplicate strings from List<String>.
+2) Explain Hashtable in detail. How is hash value computed? How do you resolve hash conflict?
+
+The first part is easy. But I did not explain the second question well enough to pass. Oh wells. I know what to read up on now.

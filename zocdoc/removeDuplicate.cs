@@ -1,8 +1,8 @@
-#without using Linq
+//without using Linq
 public List<String> removeDuplicate(List<String> input)
 {
-	#this implementation has time complexity of O(2n) and space complexity of O(2n)
-	#which is still better than pure List<String> implementation.
+	//this implementation has time complexity of O(2n) and space complexity of O(2n)
+	//which is still better than pure List<String> implementation.
 	List<String> returnList = new List<String>();
 	Hashtable ht = new Hashtable();
 	
@@ -18,6 +18,6 @@ public List<String> removeDuplicate(List<String> input)
 	return returnList;
 }
 
-#using Linq
+//using Linq
 input.GroupBy(x => x).Where(group => group.Count() > 1).Select(group => Group.Key).ToList();
-#easy huh? :)
+//easy huh? :)
